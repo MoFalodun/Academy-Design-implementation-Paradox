@@ -1,0 +1,226 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  p{
+    font-size: 18px;
+    line-height: 25.76px;
+    color: rgba(127, 126, 126, 1);
+  }
+
+  nav {
+    width: 100%;
+    padding-right: 154.74x;
+    padding-left: 120.31px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .first{
+      background-image: url(Paradox_assets/background-one\ \(1\).png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 100%;
+      height:862.63px;
+  }
+  .nav-left-logo{
+    width: 100%;
+    height: 48.56px;
+    padding-top: 22.58px;
+}
+
+.nav-right {
+    padding-top: 22.58px;
+    display: flex;
+    align-items: right;
+    width: 100%;
+    
+  }
+  .nav-right-link {
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .main-left{
+      width: 100%;
+      height: 100%;
+    
+  }
+
+  .content h1{
+    Fill: Solid;
+    color:#FFFFFF;
+    height: 100%;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 62.96px;
+    margin-top: 180px;
+  }
+  .content h3{
+    font-size: 24px;
+    line-height: 36.02px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-top: 27.31px;
+  }
+
+  .btn button{ 
+    text-align: center;
+    background: rgba(113, 213, 255, 0.24);
+    border-radius: 90px;
+    border: none;
+    outline: none;
+    width: 147.02px;
+    font-size: 16px;
+    line-height: 22.9px;
+    color: #FFFFFF;
+    font-weight: 400;
+    height: 45.83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn{
+      padding-top: 53.7px;
+      
+  }
+  .social-icons{
+      padding-top: 100.89px;
+      width: 100%;
+      height: 17.41px;
+      display: flex;
+  }
+  .social-icons-left{
+    height: 100%;
+    width: 100%;
+    margin-right: 24.95px;    
+  }
+  .social-icons-left img{
+      width: 100%;
+      height: 100%;
+  }
+  .main-right{
+      padding-bottom: 204.12px;
+  }
+  .main-right img{
+      width: 100%;
+      height: 100%;
+  }
+  
+
+  .main-left-and-right{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 119.62px;
+    padding-right: 120px;    
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .second{
+      padding-top:none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .second-head{
+    width: 100%;
+    height: 100%;
+}
+
+  .second-head h1{
+    font-weight: 900;
+    font-size: 18px;
+    color: #FF688C;
+    line-height: 25.76px;
+  }
+
+  .second-head h2{
+      font-weight: 900;
+      font-size: 38px;
+      line-height: 54.38px;
+      margin-top: 16.03px;
+  }
+  
+  .Triangle-section{
+      padding-top: 131px;
+      padding-left: 119.62px;
+      padding-right: 202.07px;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      
+  }
+
+  .Triangle-icon{
+    width: 100%;
+    height: 100%;
+}
+.Triangle-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+  
+
+  .Triangle-section-content{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 238px;    
+        padding-left: 37px;
+  }
+
+  .Triangle-section-content h6{
+    padding-bottom: 64px;  
+    font-size: 24px;
+    line-height: 34.34px;
+    font-style: normal;
+    font-weight: bold;
+     
+}
+.Triangle-section-content p{
+    text-align: left;
+    padding-left:115px;
+}
+
+  
+  
+
+  
