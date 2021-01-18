@@ -35,7 +35,7 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
   }
 
   .first{
@@ -57,9 +57,10 @@ body {
     align-items: right;
     width: 100%;
     
+    
   }
   .nav-right-link {
-    margin-right: 40px;
+    margin-right: 43.53px;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -129,10 +130,11 @@ body {
   }
   .main-right{
       padding-bottom: 204.12px;
+      box-sizing: border-box;
   }
   .main-right img{
-      width: 100%;
-      height: 100%;
+      width: 583.29px;
+      height: 540.21px;
   }
   
 
@@ -141,13 +143,20 @@ body {
     height: 100%;
     box-sizing: border-box;
     padding-left: 119.62px;
-    padding-right: 120px;    
+    padding-right: 155px;    
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
   }
 
   .second{
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      width: 100%;
+      row-gap: 10px;
+  }
+
+  .second-content{
       padding-top:none;
       text-align: center;
       display: flex;
@@ -155,59 +164,63 @@ body {
       align-items: center;
   }
 
-  .second-head{
-    width: 100%;
-    height: 100%;
-}
-
-  .second-head h1{
+h2{
     font-weight: 900;
     font-size: 18px;
     color: #FF688C;
     line-height: 25.76px;
   }
 
-  .second-head h2{
+h5{
       font-weight: 900;
       font-size: 38px;
       line-height: 54.38px;
       margin-top: 16.03px;
   }
   
-  .Triangle-section{
-      padding-top: 131px;
-      padding-left: 119.62px;
-      padding-right: 202.07px;
+.Triangle-section{
+      
+      padding-left: 100px;
+      padding-right: 170px;
       display: grid;
       align-items: center;
       justify-content: center;
       grid-template-columns: repeat(2, 1fr);
       width: 100%;
       height: 100%;
-      box-sizing: border-box;
-      
+      box-sizing: border-box; 
+      column-gap: 50px;
+      margin-top:-50px;
   }
 
-  .Triangle-icon{
-    width: 100%;
+.Triangle-icon{
+    width: 583px;
     height: 100%;
+    padding-right: 154px;
+    
 }
 .Triangle-icon img{
     width: 100%;
     height: 100%;
-}
+}  
 
-  
-
-  .Triangle-section-content{
+.Triangle-section-content{
         width: 100%;
         height: 100%;
         text-align: center;
         padding-top: 238px;    
-        padding-left: 37px;
+        
   }
+.Triangle-section-content2{
 
-  .Triangle-section-content h6{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 238px;  
+
+}
+
+.Triangle-section-content h6{
     padding-bottom: 64px;  
     font-size: 24px;
     line-height: 34.34px;
@@ -220,7 +233,250 @@ body {
     padding-left:115px;
 }
 
-  
-  
+.Triangle-section-content2 p{
+    text-align: left;
+    padding-left: 20px;
+}
+.Triangle-section-content2 h6{
+    padding-bottom: 64px;  
+    font-size: 24px;
+    line-height: 34.34px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.third{
+    width: 100%;
+    padding-top: 336.6px;
+}
+
+.third-content{
+    padding-top:none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.box-images{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 48px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65.19px;
+}
+
+.box-images-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.box-images-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.box-images-top img{
+    width: 374.41px;
+    height: 464.05px;
+}
+
+.box-images-bottom img{
+    width: 374.41px;
+    height: 464.05px;
+}
+
+.more-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 61.43px;
+    padding-left: 50px;
+}
+
+.more-button button{
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 90px;
+    width: 147.02px;
+    height: 45.83px;
+    color: rgba(255, 104, 140, 1);
+}
+
+.fourth{
+    padding-top: 336.6px;
+}
+
+.fourth-content{
+    padding-top:none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee{
+    display: grid;
+    grid-template-rows: 0.8fr 0.2fr;
+    padding-left: 123.01px;
+    padding-right: 140px;
+    padding-top: 109.59px;
+    height: 417px;
+}
+
+.employee-image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 27px;
+    
+}
+.Image-sec{
+    width: 274px;
+    height: 342.39px;
+}
+
+
+.Image-sec h2{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    padding-left: 22px;
+}
+
+.Image-sec h5{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #696969;
+    padding-left: 22px;
+}
+
+.curve{
+    background-image: url("Paradox_assets/mid-curve.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    height: 299.7px;
+    box-sizing: border-box;
+}
+
+/*.curve{ 
+    box-sizing: border-box;
+    height: 299.7px;
+    
+    width: 100%  
+}
+.curve img{
+    
+    height: 100%;
+}*/
+.fifth{
+    
+    padding-top: 49.28px;
+    box-sizing: border-box;
+}
+
+.fifth-content{
+    padding-top:none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 57.77px;
+}
+
+.contact-button button{
+    background: linear-gradient(101.53deg, #127CFF -9.34%, #2FC1FE 106.23%);
+    box-sizing: border-box;
+    border-radius: 90px;
+    width: 147.02px;
+    height: 45.83px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.footer{
+    background-color:#FFFFFF; 
+    padding-top: 183.48px;
+    padding-left: 114.81px;
+    padding-right: 142.94px;
+    box-sizing: border-box;
+    
+}
+
+.footer-up{ 
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.5fr 0.5fr 0.5fr;
+    box-sizing: border-box;  
+    height: 264.87px;
+    width: 100%;
+  }
+
+  .footer-head-heading{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+  }
+
+  .footer-content{
+    color: #797979;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+/*.bottom{
+    display: grid;
+    grid-template-columns: 0.9fr 0.1fr;
+    padding-bottom: 115.26px;   
+}*/
+
+.bottom-down-right{
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 17px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 115.26px; 
+    
+}
+.bottom-left p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.bottom-right{
+    width: 17px;
+    height: 17px;
+    margin-right: 24px;
+    
+}
+
+.bottom-right img{
+    width: 100%;
+    height: 100%;
+    
+}
+.footer-head-heading img{
+    width: 50.69px;
+    height: 42.38px;
+}
 
   
